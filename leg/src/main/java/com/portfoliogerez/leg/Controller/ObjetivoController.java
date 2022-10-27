@@ -24,7 +24,7 @@ public class ObjetivoController {
     @Autowired
     SObjetivo sObjetivo;
     
-    @PreAuthorize("hasRole('ADMIN')")
+    
     @PutMapping("/update")
     public ResponseEntity<?> update(@RequestBody DtoObjetivo dtoobj) {
 
