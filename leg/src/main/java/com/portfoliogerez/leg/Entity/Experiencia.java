@@ -1,6 +1,6 @@
 package com.portfoliogerez.leg.Entity;
 
-import java.io.File;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -31,11 +31,12 @@ public class Experiencia {
     @NotBlank
     private String descripcionE;
     private String imgE;
+    private String nImg;
 
     public Experiencia() {
     }
 
-    public Experiencia(String empresaE, String cargoE, String desdeE, String hastaE, String domicilioE, String descripcionE, String imgE) {
+    public Experiencia(String empresaE, String cargoE, String desdeE, String hastaE, String domicilioE, String descripcionE, String imgE, String nImg) {
         this.empresaE = empresaE;
         this.cargoE = cargoE;
         this.desdeE = desdeE;
@@ -43,6 +44,7 @@ public class Experiencia {
         this.domicilioE = domicilioE;
         this.descripcionE = descripcionE;
         this.imgE = imgE;
+        this.nImg=nImg;
     }
 
 }

@@ -15,11 +15,11 @@ public class DtoExperiencia {
     private String domicilioE;
     private String descripcionE;
     private String imgE;
-
+    private String nImg;
     public DtoExperiencia() {
     }
 
-    public DtoExperiencia(String empresaE, String cargoE, String desdeE, String hastaE, String domicilioE, String descripcionE, String imgE) {
+    public DtoExperiencia(String empresaE, String cargoE, String desdeE, String hastaE, String domicilioE, String descripcionE, String imgE,String nImg) {
         this.empresaE = empresaE;
         this.cargoE = cargoE;
         this.desdeE = desdeE;
@@ -27,6 +27,7 @@ public class DtoExperiencia {
         this.domicilioE = domicilioE;
         this.descripcionE = descripcionE;
         this.imgE = imgE;
+        this.nImg=nImg;
     }
 
 }

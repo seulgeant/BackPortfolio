@@ -37,7 +37,7 @@ public class ExperienciaController {
     @PostMapping("/create")
     public ResponseEntity<?> create(@RequestBody DtoExperiencia dtoexp) {
 
-        Experiencia experiencia = new Experiencia(dtoexp.getEmpresaE(), dtoexp.getCargoE(), dtoexp.getDesdeE(), dtoexp.getHastaE(), dtoexp.getDomicilioE(), dtoexp.getDescripcionE(), dtoexp.getImgE());
+        Experiencia experiencia = new Experiencia(dtoexp.getEmpresaE(), dtoexp.getCargoE(), dtoexp.getDesdeE(), dtoexp.getHastaE(), dtoexp.getDomicilioE(), dtoexp.getDescripcionE(), dtoexp.getImgE(),dtoexp.getNImg());
         sExperiencia.save(experiencia);
         return new ResponseEntity(new Mensaje("Experiencia Agregada"), HttpStatus.OK);
     }
@@ -58,6 +58,7 @@ public class ExperienciaController {
         experiencia.setHastaE(dtoexp.getHastaE());
         experiencia.setDomicilioE(dtoexp.getDomicilioE());
         experiencia.setImgE(dtoexp.getImgE());
+        experiencia.setNImg(dtoexp.getNImg());
 
         sExperiencia.save(experiencia);
         return new ResponseEntity(new Mensaje("Experiencia Actualizada"), HttpStatus.OK);
