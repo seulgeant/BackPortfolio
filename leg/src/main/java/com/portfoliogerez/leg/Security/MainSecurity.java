@@ -42,7 +42,7 @@ public class MainSecurity {
     }
 
     String[] resources = new String[]{
-        "/css/**", "/assets/**", "/js/**", "/auth**", "/include/**", "/layer/**"};
+        "/css/**", "/assets/**", "/js/**", "/auth/**", "/include/**", "/layer/**"};
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
