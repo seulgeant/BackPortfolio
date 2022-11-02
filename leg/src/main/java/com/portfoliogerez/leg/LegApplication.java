@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LegApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LegApplication.class, args);
+		SpringApplication.run(LegApplication.class, args); 
 	}
 
 }
