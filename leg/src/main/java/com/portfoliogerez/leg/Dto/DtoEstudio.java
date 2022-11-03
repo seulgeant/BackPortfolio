@@ -1,7 +1,7 @@
 package com.portfoliogerez.leg.Dto;
 
 //import com.portfoliogerez.leg.Entity.ImageModel;
-//import java.util.Set;
+
 import lombok.Getter;
 import lombok.Setter;
 
