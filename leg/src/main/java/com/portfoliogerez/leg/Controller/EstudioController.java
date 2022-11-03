@@ -7,7 +7,7 @@ import com.portfoliogerez.leg.Service.SEstudio;
 //import com.portfoliogerez.leg.Service.SImageModel;
 import com.portfoliogerez.leg.mensaje.Mensaje;
 //import com.portfoliogerez.leg.mensaje.ResponseMessage;
-//import java.io.IOException; 
+//import java.io.IOException;
 //import java.util.HashSet;
 import java.util.List;
 //import java.util.Set;
