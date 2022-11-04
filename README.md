@@ -5,7 +5,7 @@ API argentina programa
 ![MySQL](https://img.shields.io/badge/license-MySQL%208.0-green?style=plastic&logo=appveyor)
 ![SpringBoot](https://img.shields.io/badge/license-MySQL%208.0-green?style=plastic&logo=appveyor)
 
-This project was generated with [Spring Boot 2.7.5]
+This project was generated with [Spring Boot 2.7.5], Netbeans and MySQL 8.0
 This app is a API whit CRUD of persons,studies and jobs.
 
 
